@@ -28,33 +28,44 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  /* letter-spacing: 0.3ch; */
-  /* margin: 1.5rem 0 1.5rem 0; */
+
 }
 
 h3 {
   font-size: 2rem;
-  /* letter-spacing: 0.1ch; */
-  /* margin: 1rem 0 1rem 0; */
 }
 
 h4 {
   font-size: 1.5rem;
-  /* margin: 1rem 0 1rem 0; */
-  /* letter-spacing: 0.3ch; */
 }
 
 h5 {
   font-size: 1.2rem;
-  /* margin: 1rem 0 1rem 0; */
 }
 
 p {
   font-size: 1rem;
-  /* margin: 1rem 0 1rem 0; */
 }
 
-/* Landing Section Begins */
+.margin-1 {
+  margin: 1rem;
+}
+
+.margin-2 {
+  margin: 2rem;
+}
+
+.margin-3 {
+  margin: 3rem;
+}
+
+.margin-3 {
+  margin: 4rem;
+}
+
+/* /////////////// */
+/* LANDING SECTION */
+/* /////////////// */
 
 .landing-section {
   display: flex;
@@ -94,9 +105,139 @@ p {
 
 .landing-section-title {
   letter-spacing: 0.3ch;
-
+  margin: 0.5rem;
 }
 
 .landing-section-title-2 {
   letter-spacing: 0.3ch;
+  margin: 0.5rem;
 }
+
+.landing-button {
+  display: flex;
+  background-color: transparent;
+  color: white;
+  margin: 3rem 0.5rem 1rem 0.5rem;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.landing-button h5 {
+  letter-spacing: 0.1ch;
+}
+
+.landing-title-box i {
+  font-size: 1.5rem;
+
+}
+
+.landing-button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: ease-in 100ms;
+}
+
+/* /////////// */
+/* BIO SECTION */
+/* /////////// */
+
+.bio-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+
+}
+
+.more-about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+
+}
+
+.even-more-about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+/* SKILLS SECTION */
+
+.down-arrow {
+  font-size: 1.5rem;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+}
+
+.skills-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  width: 6rem;
+  padding: 2rem;
+  margin: 2rem;
+  border: 1px solid black;
+}
+
+.skills-good-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90vw;
+  height: auto;
+}
+
+.skills-used-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90vw;
+  height: auto;
+}
+
+.skills-exposure-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90vw;
+  height: auto;
+}
+
+
