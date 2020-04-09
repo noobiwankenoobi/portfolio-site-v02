@@ -1,0 +1,102 @@
+:root {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Source Code Pro', monospace; */
+  /* font-family: 'Baloo 2', cursive; */
+  /* font-family: 'Hind Madurai', sans-serif; */
+
+  margin: 0;
+  padding: 0;
+  --text-primary: black;
+  --text-secondary: white;
+  --bg-primary: ;
+  --bg-secondary: ;
+  --transition-speed: 500ms;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Markup Sizes */
+h1 {
+  font-size: 5rem;
+  letter-spacing: 0.3ch;
+}
+
+h2 {
+  font-size: 3rem;
+  /* letter-spacing: 0.3ch; */
+  /* margin: 1.5rem 0 1.5rem 0; */
+}
+
+h3 {
+  font-size: 2rem;
+  /* letter-spacing: 0.1ch; */
+  /* margin: 1rem 0 1rem 0; */
+}
+
+h4 {
+  font-size: 1.5rem;
+  /* margin: 1rem 0 1rem 0; */
+  /* letter-spacing: 0.3ch; */
+}
+
+h5 {
+  font-size: 1.2rem;
+  /* margin: 1rem 0 1rem 0; */
+}
+
+p {
+  font-size: 1rem;
+  /* margin: 1rem 0 1rem 0; */
+}
+
+/* Landing Section Begins */
+
+.landing-section {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  height: auto;
+  width: 100vw;
+  object-fit: contain;
+}
+
+.landing-page-image {
+  width: 100%;
+  /* height: auto; */
+}
+
+.landing-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.landing-title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  z-index: 2;
+}
+
+.landing-section-title {
+  letter-spacing: 0.3ch;
+
+}
+
+.landing-section-title-2 {
+  letter-spacing: 0.3ch;
+}
