@@ -67,6 +67,10 @@ p {
   margin-top: 15rem;
 }
 
+.margin-top-1 {
+  margin-top: 1rem;
+}
+
 /* /////////////// */
 /* LANDING SECTION */
 /* /////////////// */
@@ -210,9 +214,9 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 6rem;
-  width: 6rem;
-  padding: 2rem;
+  height: 5rem;
+  width: 5rem;
+  padding: 1rem;
   margin: 1rem;
   border: 1px solid black;
 }
@@ -244,7 +248,9 @@ p {
   height: auto;
 }
 
+/* //////////////// */
 /* PROJECTS SECTION */
+/* //////////////// */
 
 .projects-section {
   display: flex;
@@ -277,3 +283,30 @@ p {
   padding: 2rem;
 }
 
+/* ////////////// */
+/* RANDOM SECTION */
+/* ////////////// */
+
+.random-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+}
+
+.random-section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-facts-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
