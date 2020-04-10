@@ -63,6 +63,10 @@ p {
   margin: 4rem;
 }
 
+.margin-top-15 {
+  margin-top: 15rem;
+}
+
 /* /////////////// */
 /* LANDING SECTION */
 /* /////////////// */
@@ -209,7 +213,7 @@ p {
   height: 6rem;
   width: 6rem;
   padding: 2rem;
-  margin: 2rem;
+  margin: 1rem;
   border: 1px solid black;
 }
 
@@ -240,4 +244,36 @@ p {
   height: auto;
 }
 
+/* PROJECTS SECTION */
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+}
+
+.projects-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-cards-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  height: 15rem;
+  width: 20rem;
+  border: 1px solid black;
+  margin: 2rem;
+  padding: 2rem;
+}
 
