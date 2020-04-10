@@ -53,7 +53,8 @@
 <!-- BIO SECTION -->
   <div class="bio-section">
     <div class="about-me">
-      <h4>my name is ross hazelett</h4>
+      <h3>my name is ross hazelett</h3>
+      <i class="fa fa-angle-down down-arrow"></i>
       <h4>this is the minimum viable version of my portfolio, which I'm told will help me get a job</h4>
       <h4>version 02 is coming</h4>
       <i class="fa fa-angle-down down-arrow"></i>
@@ -126,18 +127,98 @@
     <div class="projects-title margin-top-15">
       <h3>these are my projects</h3>
       <i class="fa fa-angle-down down-arrow"></i>
-      <h4>all of these were done in the last 3 months and use a variety of technologies</h4>
+      <h4>all of these were done in the last 2 months and use a variety of technologies</h4>
       <h4>click on one to investigate further</h4>
       <i class="fa fa-angle-down down-arrow"></i>
     </div>
 
     <div class="project-cards-div">
-      <div class="project-card"></div>
-      <div class="project-card"></div>
-      <div class="project-card"></div>
-      <div class="project-card"></div>
-      <div class="project-card"></div>
-      <div class="project-card"></div>
+
+      <div class="project-card" id="pathfinder-card">
+        <div class="card-screen"></div>
+        <div class="card-title">
+          <h4>visualize pathfinder</h4>
+        </div>
+      </div>
+
+      <div class="project-card" id="woofer-card">
+        <div class="card-screen"></div>
+        <div class="card-title">
+          <h4>woofer - twitter clone</h4>
+        </div>
+      </div>
+
+      <div class="project-card" id="facedetect-card">
+        <div class="card-screen">
+          <img src="/assets/images/face-detect-01 Cropped.png" alt="">
+        </div>
+        <div class="card-title">
+          <h4>real time face detection</h4>
+        </div>
+      </div>
+
+      <div class="project-card" id="curio-card">
+        <div class="card-screen">
+          <img src="/assets/images/curio-coffee-01 Cropped.png" alt="">
+        </div>
+        <div class="card-title">
+          <h4>curio coffee & wine</h4>
+        </div>
+      </div>
+
+      <div class="project-card" id="tictactoe-card">
+        <div class="card-screen">
+          <img src="/assets/images/tic-tac-toe-01 Cropped.png" alt="">
+        </div>
+        <div class="card-title">
+          <h4>browser tic tac toe</h4>
+        </div>
+      </div>
+      <!-- <div class="project-card">
+        <div class="card-screen"></div>
+        <div class="card-title">
+          <h4>visualize pathfinder</h4>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- //////////// -->
+    <!-- // MODALS // -->
+    <!-- //////////// -->
+    <div class="modal-div" id="pathfinder-modal">
+      <div class="modal-content-div">
+        <div class="modal-screen">
+          <img src="/assets/images/curio-coffee-01 Cropped.png" alt="">
+        </div>
+        <div class="modal-title margin-top-1">
+          <h2>pathfinder algorithm visualizer</h2>
+          <i class="fa fa-angle-down down-arrow"></i>
+        </div>
+
+        <div class="modal-lower margin-top-2">
+          <div class="modal-description margin-top-1">
+            <h3>project description</h3>
+            <i class="fa fa-angle-down down-arrow"></i>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam unde dignissimos asperiores suscipit odio voluptates praesentium! Voluptatibus aliquid esse sit laborum, consequuntur, ex libero quas similique beatae rem dolores suscipit.</h4>
+          </div>
+          <div class="modal-sidebar">
+            <div class="modal-links margin-top-1">
+              <h3>links</h3>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <h5 class="margin-top-1">link to project</h5>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <div class="project-link"></div>
+              <h5 class="margin-top-1">link to github repo</h5>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <div class="project-link"></div>
+            </div>
+            <div class="modal-tech margin-top-2">
+              <h3>tech used</h3>
+              <i class="fa fa-angle-down down-arrow"></i>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
   </div>
@@ -145,7 +226,7 @@
   <div class="random-section margin-top-15">
     <div class="random-section-title margin-1">
       <h3>random facts about me</h3>
-      <h4 class="margin-top-1">i am positive these are what will get me hired</h4>
+      <h4 class="margin-top-1">i am positive that these are what will get me hired</h4>
       <i class="fa fa-angle-down down-arrow"></i>
     </div>
     <div class="random-facts-div">
