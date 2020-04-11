@@ -29,7 +29,7 @@
 <body>
 
   <nav class="navbar">
-    <div class="navbar-content">
+    <div class="navbar-content" id="navbar-content">
 
       <div class="nav-item nav-logo">
         <a href="" class="nav-link">
@@ -48,7 +48,7 @@
       </div>
 
       <div class="nav-item">
-        <a href="" class="nav-link">
+        <a href="" class="nav-link skills-link">
           <h4 class="link-text">skills</h4>
         </a>
       </div>
@@ -78,9 +78,61 @@
       </div>
 
     </div>
-
-
   </nav>
+
+  <div class="nav-mobile-button">
+    <i class="fa fa-angle-left	nav-icon"></i>
+  </div>
+
+  <div class="navbar-mobile-content" id="navbar-mobile-content">
+
+    <div class="nav-mobile-item">
+      <a href="" class="mobile-nav-link">
+        <h4 class="mobile-link-text" id="close-menu-button">x</h4>
+      </a>
+    </div>
+    <div class="nav-mobile-item">
+      <a href="" class="mobile-nav-link">
+        <h4 class="mobile-link-text">home</h4>
+      </a>
+    </div>
+    <div class="nav-mobile-item">
+      <a href="" class="mobile-nav-link">
+        <h4 class="mobile-link-text">about me</h4>
+      </a>
+    </div>
+
+    <div class="nav-mobile-item">
+      <a href="" class="mobile-nav-link">
+        <h4 class="mobile-link-text">skills</h4>
+      </a>
+    </div>
+
+    <div class="nav-mobile-item">
+      <a href="" class="mobile-nav-link">
+        <h4 class="mobile-link-text">projects</h4>
+      </a>
+    </div>
+
+    <div class="nav-mobile-item">
+      <a href="" class="mobile-nav-link">
+        <h4 class="mobile-link-text">facts</h4>
+      </a>
+    </div>
+
+    <div class="nav-mobile-item">
+      <a href="" class="mobile-nav-link">
+        <h4 class="mobile-link-text">art/guitar</h4>
+      </a>
+    </div>
+
+    <div class="nav-mobile-item">
+      <a href="" class="mobile-nav-link">
+        <h4 class="mobile-link-text">contact</h4>
+      </a>
+    </div>
+
+  </div>
 
   <div class="landing-section">
     <div class="landing-div">
@@ -101,7 +153,7 @@
   </div> -->
 
 <!-- BIO SECTION -->
-  <div class="bio-section">
+  <div class="bio-section section">
     <div class="about-me">
       <h3>my name is ross hazelett</h3>
       <i class="fa fa-angle-down down-arrow"></i>
@@ -110,7 +162,7 @@
       <i class="fa fa-angle-down down-arrow"></i>
     </div>
 
-    <div class="more-about-me">
+    <div class="more-about-me section">
       <h3>about me</h3>
       <i class="fa fa-angle-down down-arrow"></i>
       <h4>i have a versatile creative background filled with illustration, graphic design, music, film</h4>
@@ -120,7 +172,7 @@
       <i class="fa fa-angle-down down-arrow"></i>
     </div>
 
-    <div class="even-more-about-me">
+    <div class="even-more-about-me section">
       <h3>more about me</h3>
       <i class="fa fa-angle-down down-arrow"></i>
       <h4>i am a full stack developer, a Vanilla JS developer, a React developer,<br> a MERN stack developer, a PERN stack developer, and a Rails developer</h4>
@@ -131,7 +183,7 @@
   </div>
 <!-- END BIO SECTION -->
 
-  <div class="skills-section">
+  <div class="skills-section section">
     <div class="skills-title">
       <h3>here are some icons of the technologies i have worked with</h3>
       <i class="fa fa-angle-down down-arrow"></i>
@@ -173,7 +225,7 @@
 
   </div>
 
-  <div class="projects-section">
+  <div class="projects-section section">
     <div class="projects-title margin-top-15">
       <h3>these are my projects</h3>
       <i class="fa fa-angle-down down-arrow"></i>
@@ -352,9 +404,151 @@
       </div>
     </div>
 
+    <div class="modal-div" id="facedetect-modal">
+      <div class="modal-content-div">
+        <div class="modal-screen">
+          <img src="/assets/images/face-detect-02 Cropped.png" alt="">
+        </div>
+        <div class="modal-title margin-top-1">
+          <h2>face detection - real-time in browser</h2>
+          <i class="fa fa-angle-down down-arrow"></i>
+        </div>
+
+        <div class="modal-lower margin-top-2">
+          <div class="modal-description margin-top-1">
+            <h3>project description</h3>
+            <i class="fa fa-angle-down down-arrow"></i>
+            <h4 class="margin-top-1">i implemented an existing wrapper for tensor flow called face api js</h4>
+            <h4>by leveraging this api i was able to get real-time face detection in the browser that "reads" expressions and displays them</h4>
+            <h4>i utilized async functions, intervals, and had to read api documentation</h4>
+            <h4>i also figured out how to implement user media (the webcam) and the video streaming object</h4>
+            <i class="fa fa-angle-down down-arrow"></i>
+
+            <h4 class="margin-top-1">in the next version, i add more detections other than expressions, like gender, etc</h4>
+            <h4>i would like to change the display based on what user emotion is being detected</h4>
+            <i class="fa fa-angle-down down-arrow"></i>
+          </div>
+          <div class="modal-sidebar">
+            <div class="modal-links margin-top-1">
+              <h3>links</h3>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <h5 class="margin-top-1">project link</h5>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <div class="project-link">
+                <i class="fa fa-chevron-circle-right"></i>
+              </div>
+              <h5 class="margin-top-2">github repo</h5>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <div class="project-link">
+                <i class="fa fa-github"></i>
+              </div>
+            </div>
+            <div class="modal-tech margin-top-2">
+              <h3>tech used</h3>
+              <i class="fa fa-angle-down down-arrow"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-div" id="curio-modal">
+      <div class="modal-content-div">
+        <div class="modal-screen">
+          <img src="/assets/images/curio-02 Cropped.png" alt="">
+        </div>
+        <div class="modal-title margin-top-1">
+          <h2>curio coffee & wine website</h2>
+          <i class="fa fa-angle-down down-arrow"></i>
+        </div>
+
+        <div class="modal-lower margin-top-2">
+          <div class="modal-description margin-top-1">
+            <h3>project description</h3>
+            <i class="fa fa-angle-down down-arrow"></i>
+            <h4 class="margin-top-1">i was asked to make the first website for one of the boston area's finest specialty coffee shops</h4>
+            <h4>i designed it from the bottom up from scratch</h4>
+            <h4>i was in charge of curating the written content and photos, and am working on optimizing it for google searches</h4>
+            <i class="fa fa-angle-down down-arrow"></i>
+
+            <h4 class="margin-top-1">i am still in charge of adding content and making modifcations according to the owner's wishes</h4>
+            <h4>i plan to make improvements to layout and text over time</h4>
+            <i class="fa fa-angle-down down-arrow"></i>
+          </div>
+          <div class="modal-sidebar">
+            <div class="modal-links margin-top-1">
+              <h3>links</h3>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <h5 class="margin-top-1">project link</h5>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <div class="project-link">
+                <i class="fa fa-chevron-circle-right"></i>
+              </div>
+              <h5 class="margin-top-2">github repo</h5>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <div class="project-link">
+                <i class="fa fa-github"></i>
+              </div>
+            </div>
+            <div class="modal-tech margin-top-2">
+              <h3>tech used</h3>
+              <i class="fa fa-angle-down down-arrow"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-div" id="tictactoe-modal">
+      <div class="modal-content-div">
+        <div class="modal-screen">
+          <img src="/assets/images/tictactoe-o2 Cropped.png" alt="">
+        </div>
+        <div class="modal-title margin-top-1">
+          <h2>tic tac toe - mvp</h2>
+          <i class="fa fa-angle-down down-arrow"></i>
+        </div>
+
+        <div class="modal-lower margin-top-2">
+          <div class="modal-description margin-top-1">
+            <h3>project description</h3>
+            <i class="fa fa-angle-down down-arrow"></i>
+            <h4 class="margin-top-1">this is my the minimum viable version of tic tac toe</h4>
+            <h4>the goal of this project was to get tic tac toe working in the browser</h4>
+            <h4>learning to code all the logic, and win conditions, etc was beneficial to my basic javascript skills</h4>
+            <i class="fa fa-angle-down down-arrow"></i>
+            <h4 class="margin-top-1">version 02 will including a user auth that allows users to log in and keep track of their wins</h4>
+            <i class="fa fa-angle-down down-arrow"></i>
+            <h4>i would like to add a mode where the user can play against a computer that chooses a move randomly</h4>
+            <h4>i would like to allow users to play against other logged in users who are part of the same "session"</h4>
+          </div>
+          <div class="modal-sidebar">
+            <div class="modal-links margin-top-1">
+              <h3>links</h3>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <h5 class="margin-top-1">project link</h5>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <div class="project-link">
+                <i class="fa fa-chevron-circle-right"></i>
+              </div>
+              <h5 class="margin-top-2">github repo</h5>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <div class="project-link">
+                <i class="fa fa-github"></i>
+              </div>
+            </div>
+            <div class="modal-tech margin-top-2">
+              <h3>tech used</h3>
+              <i class="fa fa-angle-down down-arrow"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
-  <div class="random-section margin-top-15">
+  <div class="random-section section margin-top-15">
     <div class="random-section-title margin-1">
       <h3>random facts about me</h3>
       <h4 class="margin-top-1">i am positive that these are what will get me hired</h4>
@@ -376,13 +570,13 @@
       <h4 class="margin-top-1">i was the captain on five championship baseball teams and was scouted for division 1</h4>
       <h4>i promise i am not a jock</h4>
     </div>
-    <div class="more-random-facts-div">
+    <div class="more-random-facts-div section">
       <h4>visual proof of my coffee background</h4>
       <img src="" alt="">
     </div>
   </div>
 
-  <div class="artwork-section margin-top-15">
+  <div class="artwork-section section margin-top-15">
     <h3>here is some of my artwork</h3>
     <i class="fa fa-angle-down down-arrow"></i>
 
@@ -394,13 +588,15 @@
 
   </div>
 
-  <div class="contact-section margin-top-15">
+  <div class="contact-section section margin-top-15">
     <h3>if you think i might be a good fit, contact me</h3>
     <i class="fa fa-angle-down down-arrow"></i>
     <div class="contact-icons-div margin-top-1">
-      <div class="icon-div"></div>
-      <div class="icon-div"></div>
-      <div class="icon-div"></div>
+      <div class="icon-div">LinkedIn</div>
+      <!-- <div class="icon-div">AngelList</div>
+      <div class="icon-div">Hired</div> -->
+      <div class="icon-div">Github</div>
+      <div class="icon-div">Email</div>
     </div>
   </div>
 

@@ -7,7 +7,18 @@ function closeModal() {
   $('.modal-div').hide();
 }
 
-// Project Modals
+function openMobileNav() {
+  event.preventDefault()
+  document.getElementById('navbar-mobile-content').style.width = '50vw';
+}
+
+function closeMobileNav() {
+  event.preventDefault()
+  document.getElementById('navbar-mobile-content').style.width = '0';
+}
+////////////////////
+// Project Modals //
+////////////////////
 function showPathfinderModal() {
   $('#pathfinder-modal').show();
 }
@@ -17,17 +28,26 @@ function showWooferModal() {
 }
 
 function showFacedetectModal() {
-
+  $('#facedetect-modal').show();
 }
 
 function showCurioModal() {
-
+  $('#curio-modal').show();
 }
 
 function showTictactoeModal() {
+  $('#tictactoe-modal').show();
 
 }
 
+// SCROLLING //
+
+$(".skills-link").click(function() {
+  event.preventDefault();
+  $('html,body').animate({
+      scrollTop: $(".skills-section").offset().top},
+      'slow');
+});
 
 
 
@@ -44,6 +64,11 @@ function addHandlers() {
   $('#facedetect-card').on('click', showFacedetectModal);
   $('#curio-card').on('click', showCurioModal);
   $('#tictactoe-card').on('click', showTictactoeModal);
+
+  // Nav
+  $('.nav-mobile-button').on('click', openMobileNav);
+  $('#close-menu-button').on('click', closeMobileNav);
+
 }
 
 // On Site Load
