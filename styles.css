@@ -387,8 +387,10 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 75%;
+  width: 80%;
   height: auto;
+  padding: 0 1rem;
+  text-align: center;
   /* padding: 2rem; */
   /* border: 1px solid black; */
 
@@ -399,7 +401,7 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 25%;
+  width: 20%;
   height: auto;
   /* border: 1px solid black; */
 }
@@ -415,9 +417,16 @@ p {
 }
 
 .project-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 5rem;
   width: 5rem;
   border: 1px solid black;
+}
+
+.project-link i {
+  font-size: 4rem;
 }
 
 .modal-tech {
@@ -456,4 +465,51 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.more-random-facts-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ARTWORK SECTION */
+
+.artwork-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+}
+
+.guitar-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+}
+
+.contact-icons-div {
+  display: flex;
+}
+
+.footer {
+  margin-bottom: 15rem;
 }

@@ -3,17 +3,13 @@ function onSiteLoad() {
   $('.modal-div').hide();
 }
 
-function showProjectModal() {
-  $('.modal-div').show();
-}
-
 function closeModal() {
   $('.modal-div').hide();
 }
 
 // Project Modals
 function showPathfinderModal() {
-
+  $('#pathfinder-modal').show();
 }
 
 function showWooferModal() {
@@ -39,7 +35,6 @@ function showTictactoeModal() {
 // Click Handlers
 function addHandlers() {
   // Modal
-  $('.project-card').on('click', showProjectModal);
   $('#exit-modal-button').on('click', closeModal);
   // Cards
   $('#pathfinder-card').on('click', showPathfinderModal);
