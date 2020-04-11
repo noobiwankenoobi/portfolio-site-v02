@@ -13,7 +13,7 @@ function showPathfinderModal() {
 }
 
 function showWooferModal() {
-
+  $('#woofer-modal').show();
 }
 
 function showFacedetectModal() {
@@ -36,6 +36,8 @@ function showTictactoeModal() {
 function addHandlers() {
   // Modal
   $('#exit-modal-button').on('click', closeModal);
+  $('.modal-div').on('click', closeModal);
+
   // Cards
   $('#pathfinder-card').on('click', showPathfinderModal);
   $('#woofer-card').on('click', showWooferModal);
