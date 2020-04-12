@@ -683,7 +683,7 @@ p {
     border: none;
     overflow: hidden;
     right: 0;
-    box-shadow: -1rem 0 var(--bg-primary);
+    box-shadow: -0.5rem 0 var(--bg-primary);
   }
 
   .nav-mobile-item {
