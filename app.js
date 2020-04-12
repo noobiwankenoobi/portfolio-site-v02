@@ -42,11 +42,73 @@ function showTictactoeModal() {
 
 // SCROLLING //
 
+// HOME
+$(".home-link").click(function() {
+  event.preventDefault();
+  $('html,body').animate({
+      scrollTop: $(".landing-section").offset().top},
+      'slow');
+  closeMobileNav()
+});
+
+// ABOUT ME
+$(".about-link").click(function() {
+  event.preventDefault();
+  $('html,body').animate({
+      scrollTop: $(".bio-section").offset().top},
+      'slow');
+      closeMobileNav();
+
+});
+
+// SKILLS
 $(".skills-link").click(function() {
   event.preventDefault();
   $('html,body').animate({
       scrollTop: $(".skills-section").offset().top},
       'slow');
+  closeMobileNav();
+
+});
+
+// PROJECTS
+$(".projects-link").click(function() {
+  event.preventDefault();
+  $('html,body').animate({
+      scrollTop: $(".projects-section").offset().top},
+      'slow');
+      closeMobileNav();
+
+});
+
+// FACTS
+$(".facts-link").click(function() {
+  event.preventDefault();
+  $('html,body').animate({
+      scrollTop: $(".random-section").offset().top},
+      'slow');
+      closeMobileNav();
+
+});
+
+// ART
+$(".art-link").click(function() {
+  event.preventDefault();
+  $('html,body').animate({
+      scrollTop: $(".artwork-section").offset().top},
+      'slow');
+      closeMobileNav();
+
+});
+
+// CONTACT
+$(".contact-link").click(function() {
+  event.preventDefault();
+  $('html,body').animate({
+      scrollTop: $(".contact-section").offset().top},
+      'slow');
+      closeMobileNav();
+
 });
 
 

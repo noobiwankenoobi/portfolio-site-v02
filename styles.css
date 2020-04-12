@@ -1,6 +1,7 @@
 :root {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
+  text-align: center;
   /* font-family: 'Roboto', sans-serif; */
   /* font-family: 'Source Code Pro', monospace; */
   /* font-family: 'Baloo 2', cursive; */
@@ -77,6 +78,10 @@ p {
 
 .margin-top-2 {
   margin-top: 2rem;
+}
+
+.margin-bottom-15 {
+  margin-bottom: 15rem;
 }
 
 /* ///////////////// */
@@ -638,6 +643,22 @@ p {
     font-size: 12px;
   }
 
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
   .card-screen img {
     height: 10rem;
     width: 16rem;
@@ -698,6 +719,47 @@ p {
     top: 0;
     right: 0;
   }
+
+  .modal-content-div {
+    height: 100vh;
+    width: 100vw;
+    padding: 0.5rem;
+  }
+
+  .modal-screen {
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+  }
+
+  .modal-screen img {
+    width: 100%;
+    height: auto;
+  }
+
+  .modal-lower {
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+
+  .modal-description {
+    margin-top: 0;
+  }
+
+  .modal-links {
+    margin-top: 0;
+  }
+
+  .modal-description {
+    padding: 0.5rem;
+  }
+
+  .modal-sidebar {
+    padding: 0.5rem;
+    border-left: 1px solid grey;
+  }
+
+
 
 
 }
