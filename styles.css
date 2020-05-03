@@ -524,7 +524,7 @@ p {
   /* border: 1px solid black; */
 }
 
-.modal-links {
+.modal-links-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -532,6 +532,13 @@ p {
   height: auto;
   width: 100%;
   /* border: 1px solid black; */
+}
+
+.modal-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-link {
