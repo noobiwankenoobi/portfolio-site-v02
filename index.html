@@ -1,637 +1,731 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ross Hazelett Portfolio v02</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ross Hazelett Portfolio v02</title>
+    <!-- Stylesheet link -->
+    <link rel="stylesheet" href="styles.css" />
 
-  <!-- Stylesheet link -->
-  <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome Import -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-  <!-- Font Awesome Import -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Fonts Import -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+2|Hind+Madurai|Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts Import -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Baloo+2|Hind+Madurai|Source+Code+Pro&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <!-- JS Load-In -->
+    <script src="app.js" type="text/javascript" charset="utf-8" defer></script>
 
-  <!-- JS Load-In -->
-  <script src="app.js" type="text/javascript" charset="utf-8" defer></script>
+    <!-- Jquery Load-In  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
 
-  <!-- Jquery Load-In  -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-</head>
-
-<body>
-
-  <nav class="navbar">
-    <div class="navbar-content" id="navbar-content">
-
-      <div class="nav-item nav-logo">
-        <a href="" class="nav-link">
-          <i class="fa fa-angle-right	nav-icon"></i>
-        </a>
-      </div>
-      <div class="nav-item">
-        <a href="" class="nav-link home-link">
-          <h4 class="link-text">home</h4>
-        </a>
-      </div>
-      <div class="nav-item">
-        <a href="" class="nav-link about-link">
-          <h4 class="link-text">about me</h4>
-        </a>
-      </div>
-
-      <div class="nav-item">
-        <a href="" class="nav-link skills-link">
-          <h4 class="link-text">skills</h4>
-        </a>
-      </div>
-
-      <div class="nav-item">
-        <a href="" class="nav-link projects-link">
-          <h4 class="link-text">projects</h4>
-        </a>
-      </div>
-
-      <div class="nav-item">
-        <a href="" class="nav-link facts-link">
-          <h4 class="link-text">facts</h4>
-        </a>
-      </div>
-
-      <div class="nav-item">
-        <a href="" class="nav-link art-link">
-          <h4 class="link-text">art/guitar</h4>
-        </a>
-      </div>
-
-      <div class="nav-item">
-        <a href="" class="nav-link contact-link">
-          <h4 class="link-text">contact</h4>
-        </a>
-      </div>
-
-    </div>
-  </nav>
-
-  <div class="nav-mobile-button">
-    <i class="fa fa-angle-left	nav-icon"></i>
-  </div>
-
-  <div class="navbar-mobile-content" id="navbar-mobile-content">
-
-    <div class="nav-mobile-item">
-      <a href="" class="mobile-nav-link">
-        <h4 class="mobile-link-text" id="close-menu-button">x</h4>
-      </a>
-    </div>
-    <div class="nav-mobile-item">
-      <a href="" class="mobile-nav-link home-link">
-        <h4 class="mobile-link-text">home</h4>
-      </a>
-    </div>
-    <div class="nav-mobile-item">
-      <a href="" class="mobile-nav-link about-link">
-        <h4 class="mobile-link-text">about me</h4>
-      </a>
-    </div>
-
-    <div class="nav-mobile-item">
-      <a href="" class="mobile-nav-link skills-link">
-        <h4 class="mobile-link-text">skills</h4>
-      </a>
-    </div>
-
-    <div class="nav-mobile-item">
-      <a href="" class="mobile-nav-link projects-link">
-        <h4 class="mobile-link-text">projects</h4>
-      </a>
-    </div>
-
-    <div class="nav-mobile-item">
-      <a href="" class="mobile-nav-link facts-link">
-        <h4 class="mobile-link-text">facts</h4>
-      </a>
-    </div>
-
-    <div class="nav-mobile-item">
-      <a href="" class="mobile-nav-link art-link">
-        <h4 class="mobile-link-text">art/guitar</h4>
-      </a>
-    </div>
-
-    <div class="nav-mobile-item">
-      <a href="" class="mobile-nav-link contact-link">
-        <h4 class="mobile-link-text">contact</h4>
-      </a>
-    </div>
-
-  </div>
-
-  <div class="landing-section">
-    <div class="landing-div">
-      <div class="landing-title-box">
-        <h3 class="landing-section-title">ROSS HAZELETT</h3>
-        <h4 class="landing-section-title-2">web developer</h4>
-        <div class="landing-button projects-link">
-          <h5>VIEW PROJECTS</h5>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-content" id="navbar-content">
+        <div class="nav-item nav-logo">
+          <a href="" class="nav-link">
+            <i class="fa fa-angle-right nav-icon"></i>
+          </a>
         </div>
-        <h4 class="keep-scrolling">or keep scrolling <i class="fa fa-angle-down down-arrow"></i></h4>
+        <div class="nav-item">
+          <a href="" class="nav-link home-link">
+            <h4 class="link-text">home</h4>
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="" class="nav-link about-link">
+            <h4 class="link-text">about me</h4>
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="" class="nav-link skills-link">
+            <h4 class="link-text">skills</h4>
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="" class="nav-link projects-link">
+            <h4 class="link-text">projects</h4>
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="" class="nav-link facts-link">
+            <h4 class="link-text">facts</h4>
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="" class="nav-link art-link">
+            <h4 class="link-text">art/guitar</h4>
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="" class="nav-link contact-link">
+            <h4 class="link-text">contact</h4>
+          </a>
+        </div>
+      </div>
+    </nav>
 
+    <div class="nav-mobile-button">
+      <i class="fa fa-angle-left nav-icon"></i>
+    </div>
+
+    <div class="navbar-mobile-content" id="navbar-mobile-content">
+      <div class="nav-mobile-item">
+        <a href="" class="mobile-nav-link">
+          <h4 class="mobile-link-text" id="close-menu-button">x</h4>
+        </a>
+      </div>
+      <div class="nav-mobile-item">
+        <a href="" class="mobile-nav-link home-link">
+          <h4 class="mobile-link-text">home</h4>
+        </a>
+      </div>
+      <div class="nav-mobile-item">
+        <a href="" class="mobile-nav-link about-link">
+          <h4 class="mobile-link-text">about me</h4>
+        </a>
+      </div>
+
+      <div class="nav-mobile-item">
+        <a href="" class="mobile-nav-link skills-link">
+          <h4 class="mobile-link-text">skills</h4>
+        </a>
+      </div>
+
+      <div class="nav-mobile-item">
+        <a href="" class="mobile-nav-link projects-link">
+          <h4 class="mobile-link-text">projects</h4>
+        </a>
+      </div>
+
+      <div class="nav-mobile-item">
+        <a href="" class="mobile-nav-link facts-link">
+          <h4 class="mobile-link-text">facts</h4>
+        </a>
+      </div>
+
+      <div class="nav-mobile-item">
+        <a href="" class="mobile-nav-link art-link">
+          <h4 class="mobile-link-text">art/guitar</h4>
+        </a>
+      </div>
+
+      <div class="nav-mobile-item">
+        <a href="" class="mobile-nav-link contact-link">
+          <h4 class="mobile-link-text">contact</h4>
+        </a>
       </div>
     </div>
-  </div>
 
-  <!-- <div class="main-image-wrapper">
+    <div class="landing-section">
+      <div class="landing-div">
+        <div class="landing-title-box">
+          <h3 class="landing-section-title">ROSS HAZELETT</h3>
+          <h4 class="landing-section-title-2">web developer</h4>
+          <div class="landing-button projects-link">
+            <h5>VIEW PROJECTS</h5>
+          </div>
+          <h4 class="keep-scrolling">
+            or keep scrolling <i class="fa fa-angle-down down-arrow"></i>
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="main-image-wrapper">
     <img src="assets/images/headshot_02_crop.jpg" alt="" class="landing-page-image">
   </div> -->
 
-  <!-- BIO SECTION -->
-  <div class="bio-section section">
-    <div class="about-me">
-      <h3>my name is ross hazelett</h3>
-      <i class="fa fa-angle-down down-arrow"></i>
-      <h4>this is the minimum viable version of my portfolio,<br>which I'm told will help me get a job</h4>
-      <h4>version 2.0 is coming</h4>
-      <i class="fa fa-angle-down down-arrow"></i>
-    </div>
-
-    <div class="more-about-me section">
-      <h3>about me</h3>
-      <i class="fa fa-angle-down down-arrow"></i>
-      <h4>i have a versatile creative background filled with<br>illustration, graphic design, music, and film</h4>
-      <h4>i struggled through my 20s without direction or ambition<br>and it was excruciating</h4>
-      <h4>i recently found my love for coding and<br>everything changed</h4>
-      <h4>coding is my redemption arc</h4>
-      <i class="fa fa-angle-down down-arrow"></i>
-    </div>
-
-    <div class="even-more-about-me section margin-bottom-15">
-      <h3>more about me</h3>
-      <i class="fa fa-angle-down down-arrow"></i>
-      <h4>i am a full stack developer, a Vanilla JS developer,<br>a React developer, a MERN stack developer, <br>a PERN
-        stack developer, and a Rails developer</h4>
-      <h4>i haven't picked one yet but I gladly will<br>once an employer tells me to</h4>
-      <i class="fa fa-angle-down down-arrow"></i>
-    </div>
-
-  </div>
-  <!-- END BIO SECTION -->
-
-  <div class="skills-section section margin-bottom-15">
-    <div class="skills-title">
-      <h3>here are some icons of the technologies i have worked with</h3>
-      <i class="fa fa-angle-down down-arrow"></i>
-    </div>
-
-    <h4 class="margin-1">i am good with</h4>
-    <i class="fa fa-angle-down down-arrow"></i>
-    <div class="skills-good-icons">
-      <div class="icon-div">HTML5</div>
-      <div class="icon-div">CSS</div>
-      <div class="icon-div">JAVASCRIPT</div>
-      <div class="icon-div">JQUERY</div>
-      <div class="icon-div">NODE</div>
-      <div class="icon-div">EXPRESS</div>
-      <div class="icon-div">POSTGRESQL</div>
-      <div class="icon-div">MONGODB</div>
-      <div class="icon-div">RAILS</div>
-      <div class="icon-div">REACT</div>
-      <div class="icon-div">SASS</div>
-      <div class="icon-div">BOOTSTRAP</div>
-      <div class="icon-div">MATERIALIZE</div>
-      <div class="icon-div">SKELETON</div>
-    </div>
-
-    <h4 class="margin-1">i have used</h4>
-    <i class="fa fa-angle-down down-arrow"></i>
-    <div class="skills-used-icons">
-      <div class="icon-div">VUE</div>
-      <div class="icon-div">MONK</div>
-      <div class="icon-div">HEROKU</div>
-    </div>
-
-    <h4 class="margin-1">i have exposure to</h4>
-    <i class="fa fa-angle-down down-arrow"></i>
-    <div class="skills-exposure-icons">
-      <div class="icon-div">ANGULAR</div>
-      <div class="icon-div">AWS</div>
-    </div>
-
-  </div>
-
-  <div class="projects-section section">
-    <div class="projects-title">
-      <h3>these are my projects</h3>
-      <i class="fa fa-angle-down down-arrow"></i>
-      <h4>all of these were done in the last 2 months<br>and use a variety of technologies</h4>
-      <h4>click on one to investigate further</h4>
-      <i class="fa fa-angle-down down-arrow"></i>
-    </div>
-
-    <div class="project-cards-div">
-
-      <div class="project-card" id="pathfinder-card">
-        <div class="card-screen">
-          <img src="assets/images/pathfinder_01 Cropped.png" alt="">
-        </div>
-        <div class="card-title">
-          <h4>visualize pathfinder</h4>
-        </div>
+    <!-- BIO SECTION -->
+    <div class="bio-section section">
+      <div class="about-me">
+        <h3>my name is ross hazelett</h3>
+        <i class="fa fa-angle-down down-arrow"></i>
+        <h4>
+          this is the minimum viable version of my portfolio,<br />which I'm
+          told will help me get a job
+        </h4>
+        <h4>version 2.0 is coming</h4>
+        <i class="fa fa-angle-down down-arrow"></i>
       </div>
 
-      <div class="project-card" id="woofer-card">
-        <div class="card-screen">
-          <img src="assets/images/woofer_01 Cropped.png" alt="">
-        </div>
-        <div class="card-title">
-          <h4>woofer - twitter clone</h4>
-        </div>
+      <div class="more-about-me section">
+        <h3>about me</h3>
+        <i class="fa fa-angle-down down-arrow"></i>
+        <h4>
+          i have a versatile creative background filled with<br />illustration,
+          graphic design, music, and film
+        </h4>
+        <h4>
+          i struggled through my 20s without direction or ambition<br />and it
+          was excruciating
+        </h4>
+        <h4>i recently found my love for coding and<br />everything changed</h4>
+        <h4>coding is my redemption arc</h4>
+        <i class="fa fa-angle-down down-arrow"></i>
       </div>
 
-      <div class="project-card" id="facedetect-card">
-        <div class="card-screen">
-          <img src="assets/images/face-detect-02 Cropped.png" alt="">
-        </div>
-        <div class="card-title">
-          <h4>real time face detection</h4>
-        </div>
+      <div class="even-more-about-me section margin-bottom-15">
+        <h3>more about me</h3>
+        <i class="fa fa-angle-down down-arrow"></i>
+        <h4>
+          i am a full stack developer, a Vanilla JS developer,<br />a React
+          developer, a MERN stack developer, <br />a PERN stack developer, and a
+          Rails developer
+        </h4>
+        <h4>
+          i haven't picked one yet but I gladly will<br />once an employer tells
+          me to
+        </h4>
+        <i class="fa fa-angle-down down-arrow"></i>
+      </div>
+    </div>
+    <!-- END BIO SECTION -->
+
+    <!-- BEGIN SKILLS SECTION -->
+    <div class="skills-section section margin-bottom-15">
+      <div class="skills-title">
+        <h3>here are some icons of the technologies i have worked with</h3>
+        <i class="fa fa-angle-down down-arrow"></i>
       </div>
 
-      <div class="project-card" id="curio-card">
-        <div class="card-screen">
-          <img src="assets/images/curio-02 Cropped.png" alt="">
-        </div>
-        <div class="card-title">
-          <h4>curio coffee & wine</h4>
-        </div>
+      <h4 class="margin-1">i am good with</h4>
+      <i class="fa fa-angle-down down-arrow"></i>
+      <div class="skills-good-icons">
+        <div class="icon-div">HTML5</div>
+        <div class="icon-div">CSS</div>
+        <div class="icon-div">JAVASCRIPT</div>
+        <div class="icon-div">JQUERY</div>
+        <div class="icon-div">NODE</div>
+        <div class="icon-div">EXPRESS</div>
+        <div class="icon-div">POSTGRESQL</div>
+        <div class="icon-div">MONGODB</div>
+        <div class="icon-div">RAILS</div>
+        <div class="icon-div">REACT</div>
+        <div class="icon-div">SASS</div>
+        <div class="icon-div">BOOTSTRAP</div>
+        <div class="icon-div">MATERIALIZE</div>
+        <div class="icon-div">SKELETON</div>
       </div>
 
-      <div class="project-card" id="tictactoe-card">
-        <div class="card-screen">
-          <img src="assets/images/tictactoe-o2 Cropped.png" alt="">
-        </div>
-        <div class="card-title">
-          <h4>browser tic tac toe</h4>
-        </div>
+      <h4 class="margin-1">i have used</h4>
+      <i class="fa fa-angle-down down-arrow"></i>
+      <div class="skills-used-icons">
+        <div class="icon-div">VUE</div>
+        <div class="icon-div">MONK</div>
+        <div class="icon-div">HEROKU</div>
       </div>
-      <!-- <div class="project-card">
+
+      <h4 class="margin-1">i have exposure to</h4>
+      <i class="fa fa-angle-down down-arrow"></i>
+      <div class="skills-exposure-icons">
+        <div class="icon-div">ANGULAR</div>
+        <div class="icon-div">AWS</div>
+      </div>
+    </div>
+    <!-- END SKILLS SECTION -->
+
+    <!-- BEGIN PROJECTS SECTION -->
+    <div class="projects-section section">
+      <div class="projects-title">
+        <h3>these are my projects</h3>
+        <i class="fa fa-angle-down down-arrow"></i>
+        <h4>
+          all of these were done in the last 2 months<br />and use a variety of
+          technologies
+        </h4>
+        <h4>click on one to investigate further</h4>
+        <i class="fa fa-angle-down down-arrow"></i>
+      </div>
+
+      <div class="project-cards-div">
+        <div class="project-card" id="pathfinder-card">
+          <div class="card-screen">
+            <img src="assets/images/pathfinder_01 Cropped.png" alt="" />
+          </div>
+          <div class="card-title">
+            <h4>visualize pathfinder</h4>
+          </div>
+        </div>
+
+        <div class="project-card" id="woofer-card">
+          <div class="card-screen">
+            <img src="assets/images/woofer_01 Cropped.png" alt="" />
+          </div>
+          <div class="card-title">
+            <h4>woofer - twitter clone</h4>
+          </div>
+        </div>
+
+        <div class="project-card" id="facedetect-card">
+          <div class="card-screen">
+            <img src="assets/images/face-detect-02 Cropped.png" alt="" />
+          </div>
+          <div class="card-title">
+            <h4>real time face detection</h4>
+          </div>
+        </div>
+
+        <div class="project-card" id="curio-card">
+          <div class="card-screen">
+            <img src="assets/images/curio-02 Cropped.png" alt="" />
+          </div>
+          <div class="card-title">
+            <h4>curio coffee & wine</h4>
+          </div>
+        </div>
+
+        <div class="project-card" id="tictactoe-card">
+          <div class="card-screen">
+            <img src="assets/images/tictactoe-o2 Cropped.png" alt="" />
+          </div>
+          <div class="card-title">
+            <h4>browser tic tac toe</h4>
+          </div>
+        </div>
+        <!-- <div class="project-card">
         <div class="card-screen"></div>
         <div class="card-title">
           <h4>visualize pathfinder</h4>
         </div>
       </div> -->
-    </div>
-
-    <!-- //////////// -->
-    <!-- // MODALS // -->
-    <!-- //////////// -->
-    <!-- Pathfinder Modal Begins -->
-    <div class="modal-div" id="pathfinder-modal">
-      <div class="modal-content-div">
-        <div class="modal-screen">
-          <img src="assets/images/pathfinder_01 Cropped.png" alt="">
-        </div>
-        <div class="modal-title margin-top-1">
-          <h2>pathfinder algorithm visualizer</h2>
-          <i class="fa fa-angle-down down-arrow"></i>
-        </div>
-        <div class="modal-links-container margin-top-1">
-          <h3>links</h3>
-          <i class="fa fa-angle-down down-arrow"></i>
-          <div class="modal-links margin-top-1">
-            <h5 class="margin-1">link to project</h5>
-            <div class="project-link">
-              <i class="fa fa-chevron-circle-right"></i>
-            </div>
-            <h5 class="margin-1">link to github repo</h5>
-            <div class="project-link">
-              <i class="fa fa-github"></i>
-            </div>
-          </div>
-        </div>
-        <div class="modal-description margin-top-2">
-          <h3>project description</h3>
-          <i class="fa fa-angle-down down-arrow"></i>
-          <h4 class="margin-top-1">this is the best coding i have done to date</h4>
-          <h4>this project was created with vanilla javascript with a little jquery,<br> and vanilla css animations
-          </h4>
-          <h4>i finished it over the course of three days</h4>
-          <i class="fa fa-angle-down down-arrow"></i>
-
-          <h4 class="margin-top-1">i wanted to learn algorithms again because i had learned search algorithms in my
-            discrete math class when i was 18 and had forgotten a lot of what i had learned</h4>
-          <h4>i also wanted to pass coding interviews</h4>
-          <i class="fa fa-angle-down down-arrow"></i>
-
-          <h4 class="margin-top-1">i thought that making a project that helped me visualize what was happening in
-            different pathfinder algorithms would be the best way to learn them, as it would force me to code them
-            properly and test my css skills</h4>
-          <i class="fa fa-angle-down down-arrow"></i>
-
-          <h4 class="margin-top-1">version 01 of the project visualizes dijkstra's search algorithm by highlighting
-            visited nodes in blue on an interval and drawing the shortest path between the starting and finishing node
-          </h4>
-          <i class="fa fa-angle-down down-arrow"></i>
-
-          <h4 class="margin-top-1">it allows users to click on the grid and make certain nodes a "wall" that the
-            algorithm has to find a way around</h4>
-          <i class="fa fa-angle-down down-arrow"></i>
-
-          <h4 class="margin-top-1">version 02 of this project will add two or three more types of pathfinder
-            algorithms, and possibly allow the user to add "weighted" nodes in addition to wall nodes</h4>
-        </div>
-        <div class="modal-tech margin-top-2">
-          <h3>tech used</h3>
-          <i class="fa fa-angle-down down-arrow"></i>
-        </div>
       </div>
-    </div>
-    <!-- Pathfinder Modal Ends -->
+      <!-- END PROJECTS SECTION -->
 
-    <!-- Woofer Modal Begins -->
-    <div class="modal-div" id="woofer-modal">
-      <div class="modal-content-div">
-        <div class="modal-screen">
-          <img src="assets/images/woofer_01 Cropped.png" alt="">
-        </div>
-        <div class="modal-title margin-top-1">
-          <h2>woofer - full stack twitter clone</h2>
-          <i class="fa fa-angle-down down-arrow"></i>
-        </div>
-
-        <div class="modal-lower margin-top-2">
-          <div class="modal-description margin-top-1">
-            <h3>project description</h3>
-            <i class="fa fa-angle-down down-arrow"></i>
-            <h4 class="margin-top-1">This is a full stack twitter clone project called "woofer</h4>
-            <h4>it's twitter for dogs</h4>
-            <h4>you type in your dog's name and what they would say, and it makes a post and displays it on the screen
-            </h4>
-            <i class="fa fa-angle-down down-arrow"></i>
-
-            <h4 class="margin-top-1">i made two separate back ends for this project</h4>
-            <h4>one with express, node, monk, and mongo, and one with rails and postgresql</h4>
-            <h4>because i wanted practice with both</h4>
-            <i class="fa fa-angle-down down-arrow"></i>
-
-            <h4 class="margin-top-1">in the next version, i will add auth so that users can log in and toggle between
-              seeing all woofs or only their own woofs</h4>
-            <h4>then they also won't have to type in a name</h4>
-            <i class="fa fa-angle-down down-arrow"></i>
-
-            <h4 class="margin-top-1">the version after that will allow users to friend other users and only see woofs
-              from their friends if they want</h4>
+      <!-- //////////// -->
+      <!-- // MODALS // -->
+      <!-- //////////// -->
+      <!-- Pathfinder Modal Begins -->
+      <div class="modal-div" id="pathfinder-modal">
+        <div class="modal-content-div">
+          <div class="modal-screen">
+            <img src="assets/images/pathfinder_01 Cropped.png" alt="" />
+          </div>
+          <div class="modal-title margin-top-1">
+            <h2>pathfinder algorithm visualizer</h2>
             <i class="fa fa-angle-down down-arrow"></i>
           </div>
-          <div class="modal-sidebar">
+          <div class="modal-links-container margin-top-1">
+            <h3>links</h3>
+            <i class="fa fa-angle-down down-arrow"></i>
             <div class="modal-links margin-top-1">
-              <h3>links</h3>
-              <i class="fa fa-angle-down down-arrow"></i>
-              <h5 class="margin-top-1">project link</h5>
-              <i class="fa fa-angle-down down-arrow"></i>
               <div class="project-link">
                 <i class="fa fa-chevron-circle-right"></i>
               </div>
-              <h5 class="margin-top-2">github repo</h5>
-              <i class="fa fa-angle-down down-arrow"></i>
+              <h5 class="margin-1">link to project</h5>
               <div class="project-link">
                 <i class="fa fa-github"></i>
               </div>
-            </div>
-            <div class="modal-tech margin-top-2">
-              <h3>tech used</h3>
-              <i class="fa fa-angle-down down-arrow"></i>
+              <h5 class="margin-1">link to github repo</h5>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- Woofer Modal Ends -->
-
-    <div class="modal-div" id="facedetect-modal">
-      <div class="modal-content-div">
-        <div class="modal-screen">
-          <img src="assets/images/face-detect-02 Cropped.png" alt="">
-        </div>
-        <div class="modal-title margin-top-1">
-          <h2>face detection - real-time in browser</h2>
-          <i class="fa fa-angle-down down-arrow"></i>
-        </div>
-
-        <div class="modal-lower margin-top-2">
-          <div class="modal-description margin-top-1">
+          <div class="modal-description margin-top-2">
             <h3>project description</h3>
             <i class="fa fa-angle-down down-arrow"></i>
-            <h4 class="margin-top-1">i implemented an existing wrapper for tensor flow called face api js</h4>
-            <h4>by leveraging this api i was able to get real-time face detection in the browser that "reads"
-              expressions and displays them</h4>
-            <h4>i utilized async functions, intervals, and had to read api documentation</h4>
-            <h4>i also figured out how to implement user media (the webcam) and the video streaming object</h4>
+            <h4 class="margin-top-1">
+              this is the best coding i have done to date
+            </h4>
+            <h4>
+              this project was created with vanilla javascript with a little
+              jquery,<br />
+              and vanilla css animations
+            </h4>
+            <h4>i finished it over the course of three days</h4>
             <i class="fa fa-angle-down down-arrow"></i>
 
-            <h4 class="margin-top-1">in the next version, i add more detections other than expressions, like gender, etc
+            <h4 class="margin-top-1">
+              i wanted to learn algorithms again because i had learned search
+              algorithms in my discrete math class when i was 18 and had
+              forgotten a lot of what i had learned
             </h4>
-            <h4>i would like to change the display based on what user emotion is being detected</h4>
+            <h4>i also wanted to pass coding interviews</h4>
+            <i class="fa fa-angle-down down-arrow"></i>
+
+            <h4 class="margin-top-1">
+              i thought that making a project that helped me visualize what was
+              happening in different pathfinder algorithms would be the best way
+              to learn them, as it would force me to code them properly and test
+              my css skills
+            </h4>
+            <i class="fa fa-angle-down down-arrow"></i>
+
+            <h4 class="margin-top-1">
+              version 01 of the project visualizes dijkstra's search algorithm
+              by highlighting visited nodes in blue on an interval and drawing
+              the shortest path between the starting and finishing node
+            </h4>
+            <i class="fa fa-angle-down down-arrow"></i>
+
+            <h4 class="margin-top-1">
+              it allows users to click on the grid and make certain nodes a
+              "wall" that the algorithm has to find a way around
+            </h4>
+            <i class="fa fa-angle-down down-arrow"></i>
+
+            <h4 class="margin-top-1">
+              version 02 of this project will add two or three more types of
+              pathfinder algorithms, and possibly allow the user to add
+              "weighted" nodes in addition to wall nodes
+            </h4>
+          </div>
+          <div class="modal-tech margin-top-2">
+            <h3>tech used</h3>
             <i class="fa fa-angle-down down-arrow"></i>
           </div>
-          <div class="modal-sidebar">
-            <div class="modal-links margin-top-1">
-              <h3>links</h3>
+        </div>
+      </div>
+      <!-- Pathfinder Modal Ends -->
+
+      <!-- Woofer Modal Begins -->
+      <div class="modal-div" id="woofer-modal">
+        <div class="modal-content-div">
+          <div class="modal-screen">
+            <img src="assets/images/woofer_01 Cropped.png" alt="" />
+          </div>
+          <div class="modal-title margin-top-1">
+            <h2>woofer - full stack twitter clone</h2>
+            <i class="fa fa-angle-down down-arrow"></i>
+          </div>
+
+          <div class="modal-lower margin-top-2">
+            <div class="modal-description margin-top-1">
+              <h3>project description</h3>
               <i class="fa fa-angle-down down-arrow"></i>
-              <h5 class="margin-top-1">project link</h5>
+              <h4 class="margin-top-1">
+                This is a full stack twitter clone project called "woofer
+              </h4>
+              <h4>it's twitter for dogs</h4>
+              <h4>
+                you type in your dog's name and what they would say, and it
+                makes a post and displays it on the screen
+              </h4>
               <i class="fa fa-angle-down down-arrow"></i>
-              <div class="project-link">
-                <i class="fa fa-chevron-circle-right"></i>
+
+              <h4 class="margin-top-1">
+                i made two separate back ends for this project
+              </h4>
+              <h4>
+                one with express, node, monk, and mongo, and one with rails and
+                postgresql
+              </h4>
+              <h4>because i wanted practice with both</h4>
+              <i class="fa fa-angle-down down-arrow"></i>
+
+              <h4 class="margin-top-1">
+                in the next version, i will add auth so that users can log in
+                and toggle between seeing all woofs or only their own woofs
+              </h4>
+              <h4>then they also won't have to type in a name</h4>
+              <i class="fa fa-angle-down down-arrow"></i>
+
+              <h4 class="margin-top-1">
+                the version after that will allow users to friend other users
+                and only see woofs from their friends if they want
+              </h4>
+              <i class="fa fa-angle-down down-arrow"></i>
+            </div>
+            <div class="modal-sidebar">
+              <div class="modal-links margin-top-1">
+                <h3>links</h3>
+                <i class="fa fa-angle-down down-arrow"></i>
+                <h5 class="margin-top-1">project link</h5>
+                <i class="fa fa-angle-down down-arrow"></i>
+                <div class="project-link">
+                  <i class="fa fa-chevron-circle-right"></i>
+                </div>
+                <h5 class="margin-top-2">github repo</h5>
+                <i class="fa fa-angle-down down-arrow"></i>
+                <div class="project-link">
+                  <i class="fa fa-github"></i>
+                </div>
               </div>
-              <h5 class="margin-top-2">github repo</h5>
-              <i class="fa fa-angle-down down-arrow"></i>
-              <div class="project-link">
-                <i class="fa fa-github"></i>
+              <div class="modal-tech margin-top-2">
+                <h3>tech used</h3>
+                <i class="fa fa-angle-down down-arrow"></i>
               </div>
             </div>
-            <div class="modal-tech margin-top-2">
-              <h3>tech used</h3>
+          </div>
+        </div>
+      </div>
+      <!-- Woofer Modal Ends -->
+
+      <div class="modal-div" id="facedetect-modal">
+        <div class="modal-content-div">
+          <div class="modal-screen">
+            <img src="assets/images/face-detect-02 Cropped.png" alt="" />
+          </div>
+          <div class="modal-title margin-top-1">
+            <h2>face detection - real-time in browser</h2>
+            <i class="fa fa-angle-down down-arrow"></i>
+          </div>
+
+          <div class="modal-lower margin-top-2">
+            <div class="modal-description margin-top-1">
+              <h3>project description</h3>
               <i class="fa fa-angle-down down-arrow"></i>
+              <h4 class="margin-top-1">
+                i implemented an existing wrapper for tensor flow called face
+                api js
+              </h4>
+              <h4>
+                by leveraging this api i was able to get real-time face
+                detection in the browser that "reads" expressions and displays
+                them
+              </h4>
+              <h4>
+                i utilized async functions, intervals, and had to read api
+                documentation
+              </h4>
+              <h4>
+                i also figured out how to implement user media (the webcam) and
+                the video streaming object
+              </h4>
+              <i class="fa fa-angle-down down-arrow"></i>
+
+              <h4 class="margin-top-1">
+                in the next version, i add more detections other than
+                expressions, like gender, etc
+              </h4>
+              <h4>
+                i would like to change the display based on what user emotion is
+                being detected
+              </h4>
+              <i class="fa fa-angle-down down-arrow"></i>
+            </div>
+            <div class="modal-sidebar">
+              <div class="modal-links margin-top-1">
+                <h3>links</h3>
+                <i class="fa fa-angle-down down-arrow"></i>
+                <h5 class="margin-top-1">project link</h5>
+                <i class="fa fa-angle-down down-arrow"></i>
+                <div class="project-link">
+                  <i class="fa fa-chevron-circle-right"></i>
+                </div>
+                <h5 class="margin-top-2">github repo</h5>
+                <i class="fa fa-angle-down down-arrow"></i>
+                <div class="project-link">
+                  <i class="fa fa-github"></i>
+                </div>
+              </div>
+              <div class="modal-tech margin-top-2">
+                <h3>tech used</h3>
+                <i class="fa fa-angle-down down-arrow"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-div" id="curio-modal">
+        <div class="modal-content-div">
+          <div class="modal-screen">
+            <img src="assets/images/curio-02 Cropped.png" alt="" />
+          </div>
+          <div class="modal-title margin-top-1">
+            <h2>curio coffee & wine website</h2>
+            <i class="fa fa-angle-down down-arrow"></i>
+          </div>
+
+          <div class="modal-lower margin-top-2">
+            <div class="modal-description margin-top-1">
+              <h3>project description</h3>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <h4 class="margin-top-1">
+                i was asked to make the first website for one of the boston
+                area's finest specialty coffee shops
+              </h4>
+              <h4>i designed it from the bottom up from scratch</h4>
+              <h4>
+                i was in charge of curating the written content and photos, and
+                am working on optimizing it for google searches
+              </h4>
+              <i class="fa fa-angle-down down-arrow"></i>
+
+              <h4 class="margin-top-1">
+                i am still in charge of adding content and making modifcations
+                according to the owner's wishes
+              </h4>
+              <h4>i plan to make improvements to layout and text over time</h4>
+              <i class="fa fa-angle-down down-arrow"></i>
+            </div>
+            <div class="modal-sidebar">
+              <div class="modal-links margin-top-1">
+                <h3>links</h3>
+                <i class="fa fa-angle-down down-arrow"></i>
+                <h5 class="margin-top-1">project link</h5>
+                <i class="fa fa-angle-down down-arrow"></i>
+                <div class="project-link">
+                  <i class="fa fa-chevron-circle-right"></i>
+                </div>
+                <h5 class="margin-top-2">github repo</h5>
+                <i class="fa fa-angle-down down-arrow"></i>
+                <div class="project-link">
+                  <i class="fa fa-github"></i>
+                </div>
+              </div>
+              <div class="modal-tech margin-top-2">
+                <h3>tech used</h3>
+                <i class="fa fa-angle-down down-arrow"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-div" id="tictactoe-modal">
+        <div class="modal-content-div">
+          <div class="modal-screen">
+            <img src="assets/images/tictactoe-o2 Cropped.png" alt="" />
+          </div>
+          <div class="modal-title margin-top-1">
+            <h2>tic tac toe - mvp</h2>
+            <i class="fa fa-angle-down down-arrow"></i>
+          </div>
+
+          <div class="modal-lower margin-top-2">
+            <div class="modal-description margin-top-1">
+              <h3>project description</h3>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <h4 class="margin-top-1">
+                this is my the minimum viable version of tic tac toe
+              </h4>
+              <h4>
+                the goal of this project was to get tic tac toe working in the
+                browser
+              </h4>
+              <h4>
+                learning to code all the logic, and win conditions, etc was
+                beneficial to my basic javascript skills
+              </h4>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <h4 class="margin-top-1">
+                version 02 will including a user auth that allows users to log
+                in and keep track of their wins
+              </h4>
+              <i class="fa fa-angle-down down-arrow"></i>
+              <h4>
+                i would like to add a mode where the user can play against a
+                computer that chooses a move randomly
+              </h4>
+              <h4>
+                i would like to allow users to play against other logged in
+                users who are part of the same "session"
+              </h4>
+            </div>
+            <div class="modal-sidebar">
+              <div class="modal-links margin-top-1">
+                <h3>links</h3>
+                <i class="fa fa-angle-down down-arrow"></i>
+                <h5 class="margin-top-1">project link</h5>
+                <i class="fa fa-angle-down down-arrow"></i>
+                <div class="project-link">
+                  <i class="fa fa-chevron-circle-right"></i>
+                </div>
+                <h5 class="margin-top-2">github repo</h5>
+                <i class="fa fa-angle-down down-arrow"></i>
+                <div class="project-link">
+                  <i class="fa fa-github"></i>
+                </div>
+              </div>
+              <div class="modal-tech margin-top-2">
+                <h3>tech used</h3>
+                <i class="fa fa-angle-down down-arrow"></i>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="modal-div" id="curio-modal">
-      <div class="modal-content-div">
-        <div class="modal-screen">
-          <img src="assets/images/curio-02 Cropped.png" alt="">
-        </div>
-        <div class="modal-title margin-top-1">
-          <h2>curio coffee & wine website</h2>
-          <i class="fa fa-angle-down down-arrow"></i>
-        </div>
-
-        <div class="modal-lower margin-top-2">
-          <div class="modal-description margin-top-1">
-            <h3>project description</h3>
-            <i class="fa fa-angle-down down-arrow"></i>
-            <h4 class="margin-top-1">i was asked to make the first website for one of the boston area's finest specialty
-              coffee shops</h4>
-            <h4>i designed it from the bottom up from scratch</h4>
-            <h4>i was in charge of curating the written content and photos, and am working on optimizing it for google
-              searches</h4>
-            <i class="fa fa-angle-down down-arrow"></i>
-
-            <h4 class="margin-top-1">i am still in charge of adding content and making modifcations according to the
-              owner's wishes</h4>
-            <h4>i plan to make improvements to layout and text over time</h4>
-            <i class="fa fa-angle-down down-arrow"></i>
-          </div>
-          <div class="modal-sidebar">
-            <div class="modal-links margin-top-1">
-              <h3>links</h3>
-              <i class="fa fa-angle-down down-arrow"></i>
-              <h5 class="margin-top-1">project link</h5>
-              <i class="fa fa-angle-down down-arrow"></i>
-              <div class="project-link">
-                <i class="fa fa-chevron-circle-right"></i>
-              </div>
-              <h5 class="margin-top-2">github repo</h5>
-              <i class="fa fa-angle-down down-arrow"></i>
-              <div class="project-link">
-                <i class="fa fa-github"></i>
-              </div>
-            </div>
-            <div class="modal-tech margin-top-2">
-              <h3>tech used</h3>
-              <i class="fa fa-angle-down down-arrow"></i>
-            </div>
-          </div>
-        </div>
+    <div class="random-section section margin-top-15">
+      <div class="random-section-title margin-1">
+        <h3>random facts about me</h3>
+        <h4 class="margin-top-1">
+          i am positive that these are what will get me hired
+        </h4>
+        <i class="fa fa-angle-down down-arrow"></i>
+      </div>
+      <div class="random-facts-div">
+        <h4>i am an avid gamer</h4>
+        <h4>
+          i love bloodborne, witcher 3, god of war,<br />doom 2016/eternal,
+          hollow knight, tons of indie games, tons of classics
+        </h4>
+        <i class="fa fa-angle-down down-arrow"></i>
+        <h4 class="margin-top-1">
+          i am a cinephile, and sometimes dabble in writing about films and tv
+        </h4>
+        <i class="fa fa-angle-down down-arrow"></i>
+        <h4 class="margin-top-1">
+          i play guitar and piano, and i would learn drums<br />but i have no
+          place to put a drum set.
+        </h4>
+        <i class="fa fa-angle-down down-arrow"></i>
+        <h4 class="margin-top-1">i love coffee</h4>
+        <h4>i worked in speciality coffee for years</h4>
+        <h4>
+          if your office has a coffee machine,<br />
+          i will buy and brew better coffee for the office<br />than the rest of
+          your staff
+        </h4>
+        <h4>just sayin</h4>
+        <i class="fa fa-angle-down down-arrow"></i>
+        <h4 class="margin-top-1">
+          i was the captain on five championship baseball teams<br />and was
+          scouted for division 1
+        </h4>
+        <h4>i promise i am not a jock</h4>
+      </div>
+      <div class="more-random-facts-div section margin-top-15">
+        <h4>visual proof of my coffee background</h4>
+        <i class="fa fa-angle-down down-arrow"></i>
+        <img src="" alt="" />
       </div>
     </div>
 
-    <div class="modal-div" id="tictactoe-modal">
-      <div class="modal-content-div">
-        <div class="modal-screen">
-          <img src="assets/images/tictactoe-o2 Cropped.png" alt="">
-        </div>
-        <div class="modal-title margin-top-1">
-          <h2>tic tac toe - mvp</h2>
-          <i class="fa fa-angle-down down-arrow"></i>
-        </div>
-
-        <div class="modal-lower margin-top-2">
-          <div class="modal-description margin-top-1">
-            <h3>project description</h3>
-            <i class="fa fa-angle-down down-arrow"></i>
-            <h4 class="margin-top-1">this is my the minimum viable version of tic tac toe</h4>
-            <h4>the goal of this project was to get tic tac toe working in the browser</h4>
-            <h4>learning to code all the logic, and win conditions, etc was beneficial to my basic javascript skills
-            </h4>
-            <i class="fa fa-angle-down down-arrow"></i>
-            <h4 class="margin-top-1">version 02 will including a user auth that allows users to log in and keep track of
-              their wins</h4>
-            <i class="fa fa-angle-down down-arrow"></i>
-            <h4>i would like to add a mode where the user can play against a computer that chooses a move randomly</h4>
-            <h4>i would like to allow users to play against other logged in users who are part of the same "session"
-            </h4>
-          </div>
-          <div class="modal-sidebar">
-            <div class="modal-links margin-top-1">
-              <h3>links</h3>
-              <i class="fa fa-angle-down down-arrow"></i>
-              <h5 class="margin-top-1">project link</h5>
-              <i class="fa fa-angle-down down-arrow"></i>
-              <div class="project-link">
-                <i class="fa fa-chevron-circle-right"></i>
-              </div>
-              <h5 class="margin-top-2">github repo</h5>
-              <i class="fa fa-angle-down down-arrow"></i>
-              <div class="project-link">
-                <i class="fa fa-github"></i>
-              </div>
-            </div>
-            <div class="modal-tech margin-top-2">
-              <h3>tech used</h3>
-              <i class="fa fa-angle-down down-arrow"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="random-section section margin-top-15">
-    <div class="random-section-title margin-1">
-      <h3>random facts about me</h3>
-      <h4 class="margin-top-1">i am positive that these are what will get me hired</h4>
+    <div class="artwork-section section margin-top-15">
+      <h3>here is some of my artwork</h3>
       <i class="fa fa-angle-down down-arrow"></i>
     </div>
-    <div class="random-facts-div">
-      <h4>i am an avid gamer</h4>
-      <h4>i love bloodborne, witcher 3, god of war,<br>doom 2016/eternal, hollow knight, tons of indie games, tons of
-        classics</h4>
+
+    <div class="guitar-section margin-top-15">
+      <h3>here is me playing guitar</h3>
       <i class="fa fa-angle-down down-arrow"></i>
-      <h4 class="margin-top-1">i am a cinephile, and sometimes dabble in writing about films and tv</h4>
-      <i class="fa fa-angle-down down-arrow"></i>
-      <h4 class="margin-top-1">i play guitar and piano, and i would learn drums<br>but i have no place to put a drum
-        set.</h4>
-      <i class="fa fa-angle-down down-arrow"></i>
-      <h4 class="margin-top-1">i love coffee</h4>
-      <h4>i worked in speciality coffee for years</h4>
-      <h4>if your office has a coffee machine,<br> i will buy and brew better coffee for the office<br>than the rest of
-        your staff</h4>
-      <h4> just sayin</h4>
-      <i class="fa fa-angle-down down-arrow"></i>
-      <h4 class="margin-top-1">i was the captain on five championship baseball teams<br>and was scouted for division 1
-      </h4>
-      <h4>i promise i am not a jock</h4>
     </div>
-    <div class="more-random-facts-div section margin-top-15">
-      <h4>visual proof of my coffee background</h4>
+
+    <div class="contact-section section margin-top-15">
+      <h3>if you think i might be a good fit, contact me</h3>
       <i class="fa fa-angle-down down-arrow"></i>
-      <img src="" alt="">
-    </div>
-  </div>
-
-  <div class="artwork-section section margin-top-15">
-    <h3>here is some of my artwork</h3>
-    <i class="fa fa-angle-down down-arrow"></i>
-
-  </div>
-
-  <div class="guitar-section margin-top-15">
-    <h3>here is me playing guitar</h3>
-    <i class="fa fa-angle-down down-arrow"></i>
-
-  </div>
-
-  <div class="contact-section section margin-top-15">
-    <h3>if you think i might be a good fit, contact me</h3>
-    <i class="fa fa-angle-down down-arrow"></i>
-    <div class="contact-icons-div margin-top-1">
-      <div class="icon-div">LinkedIn</div>
-      <!-- <div class="icon-div">AngelList</div>
+      <div class="contact-icons-div margin-top-1">
+        <div class="icon-div">LinkedIn</div>
+        <!-- <div class="icon-div">AngelList</div>
       <div class="icon-div">Hired</div> -->
-      <div class="icon-div">Github</div>
-      <div class="icon-div">Email</div>
+        <div class="icon-div">Github</div>
+        <div class="icon-div">Email</div>
+      </div>
     </div>
-  </div>
 
-  <div class="footer">
-
-  </div>
-
-
-
-</body>
-
+    <div class="footer"></div>
+  </body>
 </html>
