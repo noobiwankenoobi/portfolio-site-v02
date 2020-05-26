@@ -18,6 +18,10 @@ function closeMobileNav() {
 ////////////////////
 // Project Modals //
 ////////////////////
+function showShoutingModal() {
+  $("#shouting-modal").show();
+}
+
 function showPathfinderModal() {
   $("#pathfinder-modal").show();
 }
@@ -131,6 +135,7 @@ function addHandlers() {
   $(".modal-div").on("click", closeModal);
 
   // Cards
+  $("#shouting-card").on("click", showShoutingModal);
   $("#pathfinder-card").on("click", showPathfinderModal);
   $("#woofer-card").on("click", showWooferModal);
   $("#facedetect-card").on("click", showFacedetectModal);

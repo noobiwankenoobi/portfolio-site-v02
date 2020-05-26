@@ -260,12 +260,23 @@
       </div>
 
       <div class="project-cards-div">
+        <div class="project-card" id="shouting-card">
+          <div class="card-screen">
+            <img src="assets/images/shouting-match.png" alt="" />
+          </div>
+          <div class="card-title">
+            <h4>shouting match</h4>
+            <p>react - redux - firebase - express - material-ui</p>
+          </div>
+        </div>
+
         <div class="project-card" id="pathfinder-card">
           <div class="card-screen">
             <img src="assets/images/pathfinder_01 Cropped.png" alt="" />
           </div>
           <div class="card-title">
-            <h4>visualize pathfinder</visualize></h4>
+            <h4>visualize pathfinder</h4>
+            <p>javascript - algorithms - jquery - css animations</p>
           </div>
         </div>
 
@@ -275,6 +286,7 @@
           </div>
           <div class="card-title">
             <h4>woofer - twitter clone</h4>
+            <p>firebase - express - javascript - skeleton.css</p>
           </div>
         </div>
 
@@ -284,6 +296,7 @@
           </div>
           <div class="card-title">
             <h4>real time face detection</h4>
+            <p>face api js tensorflow wrapper - javascript</p>
           </div>
         </div>
 
@@ -293,6 +306,7 @@
           </div>
           <div class="card-title">
             <h4>curio coffee & wine</h4>
+            <p>javascript - jquery - css</p>
           </div>
         </div>
 
@@ -302,20 +316,103 @@
           </div>
           <div class="card-title">
             <h4>browser tic tac toe</h4>
+            <p>javascript - css</p>
           </div>
         </div>
-        <!-- <div class="project-card">
-        <div class="card-screen"></div>
-        <div class="card-title">
-          <h4>visualize pathfinder</h4>
-        </div>
-      </div> -->
       </div>
       <!-- END PROJECTS SECTION -->
 
       <!-- //////////// -->
       <!-- // MODALS // -->
       <!-- //////////// -->
+      <!-- Shouting Match Modal Begins -->
+      <div class="modal-div" id="shouting-modal">
+        <div class="modal-content-div">
+          <div class="modal-screen">
+            <img src="assets/images/shouting-match.png" alt="" />
+          </div>
+          <!-- TITLE -->
+          <div class="modal-title margin-top-1">
+            <h2>shouting match</h2>
+            <i class="fa fa-angle-down down-arrow"></i>
+            <h4>react - redux - firebase - express - material-ui</h4>
+            <!-- <i class="fa fa-angle-down down-arrow"></i> -->
+          </div>
+          <!-- LINKS -->
+          <div class="modal-links-container margin-top-2">
+            <h3>links</h3>
+            <i class="fa fa-angle-down down-arrow"></i>
+            <div class="modal-links">
+              <a
+                href="https://github.com/noobiwankenoobi/social-media-app-functions/blob/dev1/functions/index.js"
+                target="_blank"
+              >
+                <div class="project-link mr-1">
+                  <i class="fa fa-github"></i>
+                  <h5 class="margin-1">github</h5>
+                </div>
+              </a>
+              <a href="https://shouting-match.netlify.app/" target="_blank">
+                <div class="project-link ml-1">
+                  <i class="fa fa-chevron-circle-right"></i>
+                  <h5 class="margin-1">project</h5>
+                </div>
+              </a>
+            </div>
+            <i class="fa fa-angle-down down-arrow margin-top-1"></i>
+          </div>
+          <!-- DESCRIPTION -->
+          <div class="modal-description margin-top-2">
+            <h2>project description</h2>
+            <i class="fa fa-angle-down down-arrow"></i>
+            <h4 class="margin-top-1">
+              this is my most ambitious project by far
+            </h4>
+            <h4>i finished it over the course of three weeks</h4>
+            <i class="fa fa-angle-down down-arrow"></i>
+
+            <h4>
+              it is a fully functioning social media app clone, complete with
+              user auth, user details, posts, comments, likes, and notifications
+            </h4>
+            <i class="fa fa-angle-down down-arrow"></i>
+
+            <h4>
+              i created this project primarily to teach myself new
+              techologies<br />
+              i learned more complex implementations of react<br />
+              i had never touched redux before and i learned it and implemented
+              it for this app, managing state across what could theoretically
+              scale to become a much larger app
+            </h4>
+
+            <i class="fa fa-angle-down down-arrow"></i>
+
+            <h4 class="margin-top-1">
+              i also utilized google's material-ui framework for react<br />
+              it makes the ui consistent and recognizable and <br />was
+              challenging to learn on the go
+              <br />
+              i had never used a css framework before
+            </h4>
+            <h4>
+              i used firease/firestore to manage server side functionality and
+              storage<br />
+              the routes and handlers with all implemented with express<br />
+              and involved many different nosql document collections and complex
+              queries
+            </h4>
+
+            <i class="fa fa-angle-down down-arrow"></i>
+          </div>
+          <div class="modal-tech margin-top-2">
+            <h3>tech used</h3>
+            <i class="fa fa-angle-down down-arrow"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Shouting Match Modal Ends -->
+
       <!-- Pathfinder Modal Begins -->
       <div class="modal-div" id="pathfinder-modal">
         <div class="modal-content-div">
@@ -327,23 +424,31 @@
             <h2>pathfinder algorithm visualizer</h2>
             <i class="fa fa-angle-down down-arrow"></i>
             <h4>javascript - jquery - css animations</h4>
-            <i class="fa fa-angle-down down-arrow"></i>
+            <!-- <i class="fa fa-angle-down down-arrow"></i> -->
           </div>
           <!-- LINKS -->
           <div class="modal-links-container margin-top-2">
             <h3>links</h3>
             <i class="fa fa-angle-down down-arrow"></i>
             <div class="modal-links">
-              <a href="https://github.com/noobiwankenoobi/visualize-pathfinder-v01" target="_blank">
-              <div class="project-link mr-1">
-                <i class="fa fa-github"></i>
-                <h5 class="margin-1">github</h5>
-              </div>
+              <a
+                href="https://github.com/noobiwankenoobi/visualize-pathfinder-v01"
+                target="_blank"
+              >
+                <div class="project-link mr-1">
+                  <i class="fa fa-github"></i>
+                  <h5 class="margin-1">github</h5>
+                </div>
               </a>
-              <div class="project-link ml-1">
-                <i class="fa fa-chevron-circle-right"></i>
-                <h5 class="margin-1">project</h5>
-              </div>
+              <a
+                href="https://visualize-pathfinder-v01.netlify.app/"
+                target="_blank"
+              >
+                <div class="project-link ml-1">
+                  <i class="fa fa-chevron-circle-right"></i>
+                  <h5 class="margin-1">project</h5>
+                </div>
+              </a>
             </div>
             <i class="fa fa-angle-down down-arrow margin-top-1"></i>
           </div>

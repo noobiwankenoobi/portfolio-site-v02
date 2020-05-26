@@ -433,10 +433,12 @@ p {
   height: 20rem;
   width: 32rem;
   border-radius: 0.5rem;
+  object-fit: contain;
 }
 
 .card-title {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1rem;
@@ -482,6 +484,7 @@ p {
 .modal-screen img {
   width: 64rem;
   height: 40rem;
+  object-fit: contain;
 }
 
 .modal-title {
