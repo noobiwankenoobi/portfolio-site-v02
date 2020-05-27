@@ -630,6 +630,11 @@ a {
   align-items: center;
 }
 
+.more-random-facts-div img {
+  width: 30%;
+  border-radius: 0.5rem;
+}
+
 /* ARTWORK SECTION */
 
 .artwork-section {
@@ -664,6 +669,8 @@ a {
 
 .contact-icons-div {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer {
@@ -792,5 +799,10 @@ a {
   .modal-sidebar {
     padding: 0.5rem;
     border-left: 1px solid grey;
+  }
+
+  .more-random-facts-div img {
+    width: 60%;
+    border-radius: 0.5rem;
   }
 }
