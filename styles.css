@@ -331,13 +331,19 @@ p {
 
 .icon-div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 5rem;
+  height: 6rem;
   width: 5rem;
   padding: 1rem;
   margin: 1rem;
   border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+.icon-div img {
+  width: 5rem;
 }
 
 .skills-good-icons {
@@ -573,11 +579,20 @@ a {
 .modal-tech {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  /* align-items: center; */
   height: 30rem;
   width: 100%;
   /* border: 1px solid black; */
+}
+
+.tech-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
 }
 
 /* ////////////// */
