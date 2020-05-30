@@ -863,4 +863,8 @@ a {
     width: 20rem;
     border-radius: 0.5rem;
   }
+
+  iframe {
+    width: 80vw;
+  }
 }
