@@ -41,6 +41,7 @@ h3 {
 
 h4 {
   font-size: 1.5rem;
+  overflow-wrap: normal;
 }
 
 h5 {
@@ -49,6 +50,10 @@ h5 {
 
 p {
   font-size: 1rem;
+}
+
+div {
+  overflow-wrap: normal;
 }
 
 .margin-1 {
@@ -674,6 +679,20 @@ a {
   text-align: center;
 }
 
+.art-photo-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.art-photo-div img {
+  width: 30rem;
+  height: 30rem;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  object-fit: contain;
+}
+
 .guitar-section {
   display: flex;
   flex-direction: column;
@@ -830,6 +849,18 @@ a {
 
   .more-random-facts-div img {
     width: 60%;
+    border-radius: 0.5rem;
+  }
+
+  .art-photo-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .art-photo-div img {
+    height: 20rem;
+    width: 20rem;
     border-radius: 0.5rem;
   }
 }
